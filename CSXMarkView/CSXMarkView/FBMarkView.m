@@ -21,10 +21,12 @@
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
         [self defaultAttribute];
+        [self createView];
     }
     return self;
 }
 
+//设置初试默认值
 - (void)defaultAttribute {
     self.isVertical = NO;
     self.speDistance = 10;
@@ -35,6 +37,11 @@
     self.imaginaryLineDistance = 0;
     self.imaginaryLineColor = [UIColor blackColor].CGColor;
     self.contentColor = [UIColor whiteColor].CGColor;
+}
+
+//可以作为一个bgview,添加组件 可以在这里写
+- (void)createView {
+    
 }
 
 // Only override drawRect: if you perform custom drawing.
