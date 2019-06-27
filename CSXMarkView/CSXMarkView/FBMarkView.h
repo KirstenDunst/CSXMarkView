@@ -72,6 +72,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nullable) CGColorRef imaginaryLineColor;
 
+
+/**
+ 创建子视图，继承组件重写
+ */
+- (void)mark_createView;
+
 @end
 
 NS_ASSUME_NONNULL_END

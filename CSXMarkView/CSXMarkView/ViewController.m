@@ -8,9 +8,10 @@
 
 #import "ViewController.h"
 #import "FBMarkView.h"
+#import "CSXSubMarkView.h"
 
 @interface ViewController ()
-@property (nonatomic, strong)FBMarkView *markView;
+@property (nonatomic, strong)CSXSubMarkView *markView;
 @end
 
 @implementation ViewController
@@ -20,12 +21,13 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.view addSubview:self.markView];
+    
 }
 
 #pragma mark =======lazy
-- (FBMarkView *)markView {
+- (CSXSubMarkView *)markView {
     if (!_markView) {
-        _markView = [[FBMarkView alloc]initWithFrame:CGRectMake(50, 100, 200, 400)];
+        _markView = [[CSXSubMarkView alloc]initWithFrame:CGRectMake(50, 100, 200, 400)];
         _markView.isVertical = NO;
         _markView.speDistance = 50;
         _markView.speRadius = 10;

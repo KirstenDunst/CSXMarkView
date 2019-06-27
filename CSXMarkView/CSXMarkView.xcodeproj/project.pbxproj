@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB01451322C4532E007FD4EA /* CSXSubMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB01451222C4532E007FD4EA /* CSXSubMarkView.m */; };
 		DB2D829D22800871007898A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D829C22800871007898A8 /* AppDelegate.m */; };
 		DB2D82A022800871007898A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D829F22800871007898A8 /* ViewController.m */; };
 		DB2D82A322800871007898A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2D82A122800871007898A8 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB01451122C4532E007FD4EA /* CSXSubMarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSXSubMarkView.h; sourceTree = "<group>"; };
+		DB01451222C4532E007FD4EA /* CSXSubMarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSXSubMarkView.m; sourceTree = "<group>"; };
 		DB2D829822800871007898A8 /* CSXMarkView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSXMarkView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2D829B22800871007898A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB2D829C22800871007898A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				DB2D829F22800871007898A8 /* ViewController.m */,
 				DB2D82CD228008AE007898A8 /* FBMarkView.h */,
 				DB2D82CE228008AE007898A8 /* FBMarkView.m */,
+				DB01451122C4532E007FD4EA /* CSXSubMarkView.h */,
+				DB01451222C4532E007FD4EA /* CSXSubMarkView.m */,
 				DB2D82A122800871007898A8 /* Main.storyboard */,
 				DB2D82A422800873007898A8 /* Assets.xcassets */,
 				DB2D82A622800873007898A8 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 				DB2D82A022800871007898A8 /* ViewController.m in Sources */,
 				DB2D82CF228008AE007898A8 /* FBMarkView.m in Sources */,
 				DB2D82AB22800873007898A8 /* main.m in Sources */,
+				DB01451322C4532E007FD4EA /* CSXSubMarkView.m in Sources */,
 				DB2D829D22800871007898A8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

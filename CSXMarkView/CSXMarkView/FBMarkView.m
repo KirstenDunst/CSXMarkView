@@ -21,7 +21,6 @@
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
         [self defaultAttribute];
-        [self createView];
     }
     return self;
 }
@@ -39,8 +38,8 @@
     self.contentColor = [UIColor whiteColor].CGColor;
 }
 
-//可以作为一个bgview,添加组件 可以在这里写
-- (void)createView {
+//可以作为一个bgview,添加组件 也可以在这里写
+- (void)mark_createView {
     
 }
 
@@ -130,6 +129,7 @@
     CGPathRelease(path);
     
     [self.layer addSublayer:shapeLayer];
+    [self mark_createView];
 }
 
 @end
