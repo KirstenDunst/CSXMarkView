@@ -6,11 +6,11 @@
 //  Copyright © 2019 曹世鑫. All rights reserved.
 //
 
-#import "FBMarkView.h"
+#import "CSXMarkView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CSXSubMarkView : FBMarkView
+@interface CSXSubMarkView : CSXMarkView
 
 @end
 

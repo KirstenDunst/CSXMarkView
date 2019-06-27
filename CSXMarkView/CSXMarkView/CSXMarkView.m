@@ -1,12 +1,12 @@
 //
-//  FBMarkView.m
-//  FSFuBei
+//  CSXMarkView.m
+//  CSXMarkView
 //
 //  Created by 曹世鑫 on 2019/5/5.
 //  Copyright © 2019 曹世鑫. All rights reserved.
 //
 
-#import "FBMarkView.h"
+#import "CSXMarkView.h"
 
 #define imaginaryLineWidth 1
 //虚线 线的宽度
@@ -14,7 +14,7 @@
 //虚线 每条线的间距
 #define imaginaryLineSpeWidth 1
 
-@implementation FBMarkView
+@implementation CSXMarkView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];

@@ -9,8 +9,8 @@
      '-./            \  /            \.-'
                       ''*/
 //
-//  FBMarkView.h
-//  FSFuBei
+//  CSXMarkView.h
+//  CSXMarkView
 //
 //  Created by 曹世鑫 on 2019/5/5.
 //  Copyright © 2019 曹世鑫. All rights reserved.
@@ -22,7 +22,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FBMarkView : UIView
+@interface CSXMarkView : UIView
 
 /**
  标签显示样式,是否是垂直的，默认NO:水平显示
@@ -74,7 +74,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- 创建子视图，继承组件重写
+ 创建子视图，继承组件重写方法
  */
 - (void)mark_createView;
 

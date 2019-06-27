@@ -16,7 +16,7 @@
 		DB2D82AB22800873007898A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D82AA22800873007898A8 /* main.m */; };
 		DB2D82B522800873007898A8 /* CSXMarkViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D82B422800873007898A8 /* CSXMarkViewTests.m */; };
 		DB2D82C022800873007898A8 /* CSXMarkViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D82BF22800873007898A8 /* CSXMarkViewUITests.m */; };
-		DB2D82CF228008AE007898A8 /* FBMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D82CE228008AE007898A8 /* FBMarkView.m */; };
+		DB2D82CF228008AE007898A8 /* CSXMarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2D82CE228008AE007898A8 /* CSXMarkView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		DB2D82BB22800873007898A8 /* CSXMarkViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSXMarkViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2D82BF22800873007898A8 /* CSXMarkViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSXMarkViewUITests.m; sourceTree = "<group>"; };
 		DB2D82C122800873007898A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB2D82CD228008AE007898A8 /* FBMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBMarkView.h; sourceTree = "<group>"; };
-		DB2D82CE228008AE007898A8 /* FBMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMarkView.m; sourceTree = "<group>"; };
+		DB2D82CD228008AE007898A8 /* CSXMarkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSXMarkView.h; sourceTree = "<group>"; };
+		DB2D82CE228008AE007898A8 /* CSXMarkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSXMarkView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 				DB2D829C22800871007898A8 /* AppDelegate.m */,
 				DB2D829E22800871007898A8 /* ViewController.h */,
 				DB2D829F22800871007898A8 /* ViewController.m */,
-				DB2D82CD228008AE007898A8 /* FBMarkView.h */,
-				DB2D82CE228008AE007898A8 /* FBMarkView.m */,
+				DB2D82CD228008AE007898A8 /* CSXMarkView.h */,
+				DB2D82CE228008AE007898A8 /* CSXMarkView.m */,
 				DB01451122C4532E007FD4EA /* CSXSubMarkView.h */,
 				DB01451222C4532E007FD4EA /* CSXSubMarkView.m */,
 				DB2D82A122800871007898A8 /* Main.storyboard */,
@@ -273,7 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB2D82A022800871007898A8 /* ViewController.m in Sources */,
-				DB2D82CF228008AE007898A8 /* FBMarkView.m in Sources */,
+				DB2D82CF228008AE007898A8 /* CSXMarkView.m in Sources */,
 				DB2D82AB22800873007898A8 /* main.m in Sources */,
 				DB01451322C4532E007FD4EA /* CSXSubMarkView.m in Sources */,
 				DB2D829D22800871007898A8 /* AppDelegate.m in Sources */,
